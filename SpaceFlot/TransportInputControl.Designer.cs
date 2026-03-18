@@ -36,22 +36,22 @@
             // 
             // txtModelName
             // 
-            txtModelName.Location = new Point(0, 59);
+            txtModelName.Location = new Point(0, 84);
             txtModelName.Name = "txtModelName";
-            txtModelName.Size = new Size(150, 23);
+            txtModelName.Size = new Size(316, 23);
             txtModelName.TabIndex = 7;
             // 
             // txtCapacity
             // 
             txtCapacity.Location = new Point(0, 17);
             txtCapacity.Name = "txtCapacity";
-            txtCapacity.Size = new Size(150, 23);
+            txtCapacity.Size = new Size(316, 23);
             txtCapacity.TabIndex = 6;
             // 
             // lblModelName
             // 
             lblModelName.AutoSize = true;
-            lblModelName.Location = new Point(0, 41);
+            lblModelName.Location = new Point(0, 66);
             lblModelName.Name = "lblModelName";
             lblModelName.Size = new Size(76, 15);
             lblModelName.TabIndex = 5;
@@ -77,6 +77,7 @@
             Controls.Add(lblModelName);
             Controls.Add(lblCapacity);
             Name = "TransportInputControl";
+            Size = new Size(316, 150);
             ResumeLayout(false);
             PerformLayout();
         }

@@ -41,25 +41,25 @@
             // 
             comboBox1.FormattingEnabled = true;
             comboBox1.Items.AddRange(new object[] { "Combat Ship", "Transport Ship" });
-            comboBox1.Location = new Point(112, 155);
+            comboBox1.Location = new Point(2, 1);
             comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(121, 23);
+            comboBox1.Size = new Size(331, 23);
             comboBox1.TabIndex = 0;
             comboBox1.SelectedIndexChanged += comboBox1_SelectedIndexChanged;
             // 
             // pnlInputContainer
             // 
-            pnlInputContainer.Location = new Point(110, 187);
+            pnlInputContainer.Location = new Point(2, 30);
             pnlInputContainer.Name = "pnlInputContainer";
-            pnlInputContainer.Size = new Size(123, 90);
+            pnlInputContainer.Size = new Size(331, 148);
             pnlInputContainer.TabIndex = 1;
             // 
             // btnAddShip
             // 
             btnAddShip.Enabled = false;
-            btnAddShip.Location = new Point(110, 283);
+            btnAddShip.Location = new Point(2, 184);
             btnAddShip.Name = "btnAddShip";
-            btnAddShip.Size = new Size(123, 28);
+            btnAddShip.Size = new Size(331, 75);
             btnAddShip.TabIndex = 2;
             btnAddShip.Text = "Add";
             btnAddShip.UseVisualStyleBackColor = true;
@@ -68,17 +68,17 @@
             // lstShips
             // 
             lstShips.FormattingEnabled = true;
-            lstShips.Location = new Point(239, 157);
+            lstShips.Location = new Point(339, 7);
             lstShips.Name = "lstShips";
-            lstShips.Size = new Size(330, 154);
+            lstShips.Size = new Size(449, 334);
             lstShips.TabIndex = 3;
             lstShips.SelectedIndexChanged += lstShips_SelectedIndexChanged;
             // 
             // btnAddDestroyer
             // 
-            btnAddDestroyer.Location = new Point(110, 317);
+            btnAddDestroyer.Location = new Point(2, 266);
             btnAddDestroyer.Name = "btnAddDestroyer";
-            btnAddDestroyer.Size = new Size(123, 28);
+            btnAddDestroyer.Size = new Size(331, 75);
             btnAddDestroyer.TabIndex = 4;
             btnAddDestroyer.Text = "Add Destroyer";
             btnAddDestroyer.UseVisualStyleBackColor = true;
@@ -86,9 +86,9 @@
             // 
             // btnAddCargo
             // 
-            btnAddCargo.Location = new Point(239, 317);
+            btnAddCargo.Location = new Point(2, 347);
             btnAddCargo.Name = "btnAddCargo";
-            btnAddCargo.Size = new Size(123, 28);
+            btnAddCargo.Size = new Size(331, 75);
             btnAddCargo.TabIndex = 5;
             btnAddCargo.Text = "Add Cargo";
             btnAddCargo.UseVisualStyleBackColor = true;
@@ -97,9 +97,9 @@
             // btnExecute
             // 
             btnExecute.Enabled = false;
-            btnExecute.Location = new Point(368, 317);
+            btnExecute.Location = new Point(339, 347);
             btnExecute.Name = "btnExecute";
-            btnExecute.Size = new Size(201, 28);
+            btnExecute.Size = new Size(449, 75);
             btnExecute.TabIndex = 6;
             btnExecute.Text = "Execute";
             btnExecute.UseVisualStyleBackColor = true;
@@ -109,7 +109,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(793, 426);
             Controls.Add(btnExecute);
             Controls.Add(btnAddCargo);
             Controls.Add(btnAddDestroyer);
