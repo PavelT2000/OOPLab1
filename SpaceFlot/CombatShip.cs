@@ -11,7 +11,7 @@ namespace SpaceFlot
         public int FirePower { get; set; }
         public CombatShip(string model, int power) : base(model, 100) { FirePower = power; }
 
-        public override void ExecuteMission() => Fuel -= 20; // Расход на бой
+        public override void ExecuteMission() => Fuel -= 20; 
         public override string GetStatus() => base.GetStatus() + $" | Мощь: {FirePower}";
     }
 }

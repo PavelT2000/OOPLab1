@@ -8,7 +8,7 @@ namespace SpaceFlot
 {
     internal sealed class CargoFreighter : TransportShip
     {
-        private string[] _cargoLog = new string[10]; // Для индексатора
+        private string[] _cargoLog = new string[10];
 
         public CargoFreighter(string name) : base(name, 2000) { }
 
